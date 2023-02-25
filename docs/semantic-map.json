@@ -1,0 +1,182 @@
+{
+    "aws://cloud/children/6": {
+        "location": "https://docs.nasdanika.org/demo-action-site/cloud/parameter-store.html",
+        "text": "Parameter Store",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/shared-services/children/0": {
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/shared-services/account-baseline.html",
+        "text": "Account Baseline",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/shared-services/children/1": {
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/shared-services/vpc.html",
+        "text": "VPC",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "aws://cloud/children/5": {
+        "location": "https://docs.nasdanika.org/demo-action-site/cloud/service-catalog.html",
+        "text": "Service Catalog",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "aws://cloud/children/2": {
+        "location": "https://docs.nasdanika.org/demo-action-site/cloud/organizations.html",
+        "text": "Organizations",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/children/2/children/2": {
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/security/guard-duty.html",
+        "text": "GuardDuty",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/children/2/children/3": {
+        "tooltip": "Simple Notification Service",
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/security/sns.html",
+        "text": "SNS",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "aws://cloud/children/4": {
+        "location": "https://docs.nasdanika.org/demo-action-site/cloud/account-baseline.html",
+        "text": "Account Baseline",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/children/2/children/0": {
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/security/account-baseline.html",
+        "text": "Account Baseline",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "aws://cloud/children/3": {
+        "location": "https://docs.nasdanika.org/demo-action-site/cloud/sso.html",
+        "text": "Single Sign-on",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/children/2/children/1": {
+        "icon": "fas fa-key",
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/security/security-cross-account-roles.html",
+        "text": "Security Cross-Account Roles",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/shared-services": {
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/shared-services/index.html",
+        "text": "Shared Services",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "aws://cloud/core-ou": {
+        "location": "https://docs.nasdanika.org/demo-action-site/cloud/core-ou.html",
+        "text": "Core OU",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "nasdanika://my-aws-solution": {
+        "tooltip": "Principal action",
+        "icon": "fab fa-aws",
+        "location": "https://docs.nasdanika.org/demo-action-site/index.html",
+        "text": "My AWS Solution",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "aws://cloud": {
+        "icon": "fas fa-cloud",
+        "location": "https://docs.nasdanika.org/demo-action-site/cloud/index.html",
+        "text": "AWS Cloud",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/children/1/children/0": {
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/log-archive/account-baseline.html",
+        "text": "Account Baseline",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "aws://services/s3": {
+        "location": "https://docs.nasdanika.org/demo-action-site/cloud/s3.html",
+        "text": "S3 Bucket",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts": {
+        "text": "Accounts",
+        "type": {
+            "name": "Label",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/children/1/children/1": {
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/log-archive/cloud-trail-and-config-logs.html",
+        "text": "Aggregate CloudTrail and Config Logs",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "aws://services/code-pipeline": {
+        "location": "https://docs.nasdanika.org/demo-action-site/cloud/code-pipeline.html",
+        "text": "CodePipeline",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/children/1": {
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/log-archive/index.html",
+        "text": "Log Archive",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    },
+    "my-solution://accounts/children/2": {
+        "location": "https://docs.nasdanika.org/demo-action-site/accounts/security/index.html",
+        "text": "Security",
+        "type": {
+            "name": "Link",
+            "ns-uri": "urn:org.nasdanika.html.model.app"
+        }
+    }
+}
