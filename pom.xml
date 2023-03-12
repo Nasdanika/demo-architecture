@@ -3,48 +3,38 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nasdanika.demo</groupId>
 	<artifactId>architecture</artifactId>
-	<version>2023.2.0</version>
-	<packaging>jar</packaging>
+	<version>2023.3.0</version>
 	<name>Architecture documentation demo</name>
 	<description>Demo of generating architecture documentation site from Nasdanika architecture models</description>
 	<build>
 		<plugins>
 			<plugin>
-				<groupId>org.apache.maven.plugins</groupId>
-				<artifactId>maven-compiler-plugin</artifactId>
-				<version>3.8.1</version>
+				<artifactId>maven-site-plugin</artifactId>
+				<version>4.0.0-M5</version>
 				<configuration>
-					<source>11</source>
-					<target>11</target>
+					<skip>true</skip>
+					<skipDeploy>true</skipDeploy>
 				</configuration>
-			</plugin>		
-		        <plugin>
-		            <groupId>org.apache.maven.plugins</groupId>
-	        	    <artifactId>maven-surefire-plugin</artifactId>
-		            <version>3.0.0-M7</version>
-		            <dependencies>
-	        	        <dependency>
-	                	    <groupId>org.junit.jupiter</groupId>
-		                    <artifactId>junit-jupiter-engine</artifactId>
-		                    <version>5.9.1</version>
-	        	        </dependency>
-		            </dependencies>
-		        </plugin>
+			</plugin>
+			<plugin>
+				<groupId>org.nasdanika.architecture</groupId>
+				<artifactId>site-generator-maven-plugin</artifactId>
+				<version>2023.3.0</version>
+				<executions>
+					<execution>
+						<goals>
+							<goal>generate-site</goal>
+						</goals>
+					</execution>
+				</executions>
+				<configuration>
+					<model>architecture.yml</model>
+					<rootAction>root-action.yml</rootAction>
+					<pageTemplate>page-template.yml</pageTemplate>
+					<progressOutput>semantic-site-progress.txt</progressOutput>
+					<siteMapDomain>https://docs.nasdanika.org/demo-architecturre</siteMapDomain>
+				</configuration>
+			</plugin>
 		</plugins>
 	</build>
-	<dependencies>
-		<dependency>
-			<groupId>org.nasdanika.architecture</groupId>
-			<artifactId>c4-gen</artifactId>
-			<version>2023.2.0</version>
-		</dependency>
-
-		<dependency>
-		    <groupId>org.junit.jupiter</groupId>
-		    <artifactId>junit-jupiter-api</artifactId>
-		    <version>5.9.1</version>
-		    <scope>test</scope>
-		</dependency>		
-	</dependencies>
 </project>
-
