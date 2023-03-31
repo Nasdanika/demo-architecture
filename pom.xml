@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.nasdanika.demo</groupId>
 	<artifactId>architecture</artifactId>
-	<version>2023.3.0</version>
+	<version>2023.4.0</version>
 	<name>Architecture documentation demo</name>
 	<description>Demo of generating architecture documentation site from Nasdanika architecture models</description>
 	<build>
@@ -19,7 +19,7 @@
 			<plugin>
 				<groupId>org.nasdanika.architecture</groupId>
 				<artifactId>site-generator-maven-plugin</artifactId>
-				<version>2023.3.0</version>
+				<version>2023.4.0</version>
 				<executions>
 					<execution>
 						<goals>
@@ -33,6 +33,7 @@
 					<pageTemplate>page-template.yml</pageTemplate>
 					<progressOutput>semantic-site-progress.txt</progressOutput>
 					<siteMapDomain>https://docs.nasdanika.org/demo-architecturre</siteMapDomain>
+					<errors>5</errors>
 				</configuration>
 			</plugin>
 		</plugins>

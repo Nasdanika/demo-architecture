@@ -9,4 +9,23 @@ c4-system:
         content-resource: 
           location: readme.md
           interpolate: true
-  
+  elements:
+    - core-domain:
+        id: infrastructure 
+        name: Infrastructure  
+        elements:
+          - core-domain:
+              name: Azure
+              id: azure
+              #icon: https://img.icons8.com/fluency/16/null/azure-1.png
+              elements:
+                - azure-subscription:
+                    id: production
+                    name: Production Subscription
+                    resource-groups:
+                      internet-banking-system:
+                        name: Internet Banking System
+                        resources:
+                          - azure-kubernetes-service:
+                              id: aks
+                              name: Kubernetes Service
